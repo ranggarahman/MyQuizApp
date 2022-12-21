@@ -59,6 +59,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_marginTop="20dp">
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name"
@@ -73,6 +74,7 @@
 
 
             <Button
+                android:id="@+id/btn_start"
                 app:cornerRadius="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
